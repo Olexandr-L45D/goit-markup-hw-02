@@ -58,3 +58,177 @@
  .address-link:focus {
    color: #404BBF;
  }
+ 
+
+.hero-section {
+  width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+}
+
+ .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+ }
+
+ .hero-buy-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+ }
+
+
+ .skills-section {
+  width: 1128px;
+  height: 104px;
+ }
+
+ .hideness {
+
+ }
+
+ .skills-list {
+  
+ }
+
+ .skills-item {
+  width: 264px;
+    height: 104px;
+ }
+
+ .skil-sabtitle {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+ }
+
+ .skills-item-text {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+
+
+
+ .tem-section {
+  width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+ }
+
+ .tem-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+ }
+
+ .tem-list {
+  
+ }
+
+ .tem-item {
+  border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    background: #fff;
+ }
+
+ .tem-imeges {
+  width: 264px;
+    height: 260px;
+ }
+.sab-title-item{
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+ 
+ .tem-item-text {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+ }
+
+
+
+ .portfolo-section {
+  width: 1128px;
+    height: 1000px;
+ }
+
+ .portfolio-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+ }
+
+ .portfolio-list {
+  width: 1128px;
+    height: 420px;
+ }
+
+ .portfolio-item {
+  width: 360px;
+    height: 300px;
+ }
+
+ .portfolio-imeges {
+  width: 360px;
+    height: 300px;
+ }
+
+ .portf-sabtitle{
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+ }
+
+ .portfolio-item-text {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+
+
+
+ .footer-section {
+  width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+ }
+
+ .footer-link {
+
+ }
+
+ .footer-text {
+
+ }
+
+ .footer-logo-color{
+  color: #4D5AE5;
+ }
