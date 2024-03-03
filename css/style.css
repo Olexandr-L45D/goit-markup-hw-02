@@ -25,6 +25,7 @@
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #4d5ae5;
+      cursor: pointer;
  }
 
  .logo-part {
@@ -62,7 +63,7 @@
 
 .hero-section {
   width: 1440px;
-    height: 600px;
+    height: px;
     background: #2e2f42;
 }
 
@@ -80,13 +81,24 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    text-align: center;
     color: #fff;
  }
-
+ .hero-conteiner-button {
+  width: Hug (169px);
+   height: Hug (56px);
+    top: 428px;
+   left: 636px;
+    padding: 16px, 32px, 16px, 32px;
+     border-radius: 4px;
+      gap: 10px;
+  text-align: center;
+  cursor: pointer;
+ 
+ }
 
  .skills-section {
-  width: 1128px;
-  height: 104px;
+  
  }
 
  .hideness {
@@ -98,8 +110,7 @@
  }
 
  .skills-item {
-  width: 264px;
-    height: 104px;
+  
  }
 
  .skil-sabtitle {
@@ -120,8 +131,7 @@
 
 
  .tem-section {
-  width: 1440px;
-    height: 732px;
+  
     background: #f4f4fd;
  }
 
@@ -141,14 +151,11 @@
  .tem-item {
   border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
     background: #fff;
  }
 
  .tem-imeges {
-  width: 264px;
-    height: 260px;
+  
  }
 .sab-title-item{
   font-weight: 500;
@@ -170,8 +177,7 @@
 
 
  .portfolo-section {
-  width: 1128px;
-    height: 1000px;
+  
  }
 
  .portfolio-title {
@@ -184,18 +190,15 @@
  }
 
  .portfolio-list {
-  width: 1128px;
-    height: 420px;
+  
  }
 
  .portfolio-item {
-  width: 360px;
-    height: 300px;
+  
  }
 
  .portfolio-imeges {
-  width: 360px;
-    height: 300px;
+  
  }
 
  .portf-sabtitle{
@@ -217,18 +220,29 @@
 
  .footer-section {
   width: 1440px;
-    height: 312px;
+    height: px;
     background: #2e2f42;
  }
 
- .footer-link {
-
+ .footer-text {
+  Size: 16px;
+  Line height: 24px;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
  }
 
- .footer-text {
-
+ .footer-link {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F4F4FD;
  }
 
  .footer-logo-color{
-  color: #4D5AE5;
+    color: #4D5AE5;
+    cursor: pointer;
  }
+
