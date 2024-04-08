@@ -1,5 +1,7 @@
  body {
-    
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color:#FFFFFF;
 
  }
 
@@ -59,7 +61,6 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 
  }
 
@@ -112,7 +113,7 @@
  /*---Hero---*/
 
  .hero {
-    background: #2e2f42;
+    background-color: #2e2f42; 
     
  }
 
@@ -122,33 +123,23 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
-    max-width: 496px;
-    margin: auto;
-    padding: 0px;
+    color: #ffffff;
  }
 
  .hero-buy-button {
+   background-color: #4d5ae5;
+   font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
-    display: block;
-    text-align: center;
-    min-width: 169px;
-    height: 56px;
-    top: 428px;
-    left: 636px;
-    padding: 16px, 32px, 16px, 32px;
-    border: none;
-    border-radius: 4px;
-    gap: 10px;
+    color: #ffffff;
     cursor: pointer;
-    box-shadow: 0 4px 4px 0, rgba 0, 0, 0, 0.15;
-    margin-top: 60px;
-    margin-left: 500px;
+ }
+
+ .hero-buy-button:hover,
+ .hero-buy-button:focus {
+   background-color: #404BBF;
  }
 
  /*--Skill--*/
@@ -158,17 +149,13 @@
 
  }
 
- .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+ .skil-tetle {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #434455;
  }
 
  .ski-conteiner {
@@ -191,44 +178,34 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-left: 0px;
-    margin-bottom: 8px;
-    padding-left: 0px;
-    text-align: left;
+    
  }
 
  .skills-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin-bottom: 5px;
-    padding: 0px;
-
-
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
  }
 
  /*--Tem--*/
 
  .tem-section {
-    
+   background-color: #434455;
  }
 
  .tem-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin: 0;
-    text-align: center;
-    margin-bottom: 72px;
-    padding-bottom: 72px;
-
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-align: center;
+      text-transform: capitalize;
+      color: #2e2f42;
  }
 
  .tem-list {
-    
+  background-color: #FFFFFF;
 
  }
 
@@ -247,25 +224,19 @@
  }
 
  .sab-title-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    padding: 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #2e2f42;
  }
 
  .tem-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
-    margin: 0;
-    padding: 0 0 32px 0;
-
  }
 
  /*--Portfolio--*/
@@ -285,7 +256,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
+    text-transform: capitalize;
  }
 
  .portfolio-list {
@@ -295,12 +266,6 @@
  .portfolio-item {
     
 
- }
-
- .portfolio-imeges {
-    display: block;
-    max-width: 100%;
-    height: auto;
  }
 
  .port-cont-text {
@@ -313,10 +278,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-left: 0;
-    margin-bottom: 8px;
-    padding-left: 0px;
-
  }
 
  .portfolio-item-text {
@@ -324,9 +285,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
-    padding-left: 0px;
-
  }
 
  /*--Footer--*/
@@ -342,13 +300,11 @@
  }
 
  .footer-text {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
     color: #F4F4FD;
-    margin: 0px;
-    padding: 0px;
-    max-width: 264px;
+    
 
  }
 
@@ -356,15 +312,13 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-align: left;
-    color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
+    color: #4d5ae5;
+   text-transform: uppercase;
  }
 
  .footer-logo-color {
-    color: #4D5AE5;
-    cursor: pointer;
+   color: #f4f4fd;
+    
  }
